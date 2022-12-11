@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <header>
+      
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link rel="sass source/stylesheets/index.scss build/stylesheets/index.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="portfolio.js"></script>
+<link rel="stylesheet" href="portfolio.scss">
+<link rel="stylesheet" href="portfolio.css">
+
+<script>
+  AOS.init();
+</script>
+      </header>
+
+
+      <body>
+          <div class="container1">
+              <section class="ena" id="ena">
+              
+              <div class="glassabout">
+                <div class="typewriter">
+                <h1>Sem Aleksandar Savkovic, </h1><br>
+              </div>
+
+              <a href="#dva" class="button">spoznaj me</a>
+              
+              </div>
+
+              <div class="avatar">
+                <img src="ReadyPlayerMe-Avatar.png">
+              </div>
+
+              </section>
+
+              <section class="dva" id="dva">
+                <div class="izkusnje">
+                </div>
+              <div class="karte">
+                <div class="container">
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                              <h3>Strojništvo</h3>
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <p>Ročne spretnosti pri sestavi konstrukcij, varjenje, branje in risanje tehničnih načrtov, opravljanje meritev toleranc ter standardov</p>                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                              <h3>Programiranje</h3>
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <p>več let izkušenj na področju programiranja spletnih aplikacij, igric, spletnih trgovin, delo s bazami podatkov  </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="face face1">
+                          <div class="content">
+                              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                              <h3>Mehatronika</h3>
+                          </div>
+                      </div>
+                      <div class="face face2">
+                          <div class="content">
+                              <p>programiranje plc, sestava mehatroničnih in elektrotehničnih koomponent, pnevmatika in hidravlika, robotika </p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <div class="stickers">
+
+              <div class="arduinos">
+                <a href='https://pngtree.com/so/Manufacturing'></a>
+                <img src="arduino.svg" width="350px" height="400px">
+              </div>
+            </div>
+            <a href="izkusnje.html" class="button">izkusnje</a>
+              </section>
+          </div>
+      </body>
+
+
+      <style>
+        
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 40%;
+  scroll-behavior: smooth;
+}
+
+        .madeby {
+          bottom: 1000px;
+        }
+
+        .karte {
+          justify-items: center;
+          right: 0px;
+          vertical-align: middle;
+        }
+
+        .arduino {
+          position: absolute;
+          margin-top: 200px;
+          margin-right: 50px;
+          top: 400px;
+          left: 20%;
+          -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+        }
+
+
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    transform: skewX(-20deg);
+    vertical-align: middle;
+    margin-left: 100px;
+    z-index: 3;
+ 
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.container .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    height: 500px;
+    bottom: 0px;
+
+}
+
+.container .card:hover .face.face1{
+    background: #a00505;
+    transform: translateY(0);
+
+}
+
+.container .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+    
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+    
+}
+
+.container .card .face.face1 .content img{
+    max-width: 100px;
+    
+}
+
+.container .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+    height: 300px;
+
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.container .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+    height: 300px;
+}
+
+.container .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+    height: 400px;
+}
+
+        p {
+          justify-content: center;
+          margin: 5rem;
+          margin-left: 20%;
+          margin-top: 0%;
+          font-family: 'Fredoka One', cursive;
+    font-weight: 600;
+    font-size: 120%;
+    
+        }
+
+        .avatar {
+          margin-left: -10%;
+          width: min-content;
+          height: min-content;
+          overflow: hidden;
+          margin-bottom: 82px;
+        }
+
+        body {
+          overflow: hidden; /* Hide scrollbars */
+          min-width: 100vh;
+          margin: auto;
+          scroll-behavior: smooth;
+          background: linear-gradient(54deg, #4800ff, #00ffe5);
+        }
+
+          .container1 {
+              scroll-snap-type: y mandatory;
+              overflow-y: scroll;
+              height: 100vh;
+              max-width: 100%;
+              background: linear-gradient(54deg, #4800ff, #00ffe5);
+              scroll-behavior: smooth;
+          }
+
+
+
+          .ena {
+            background-size: cover;
+            justify-content: right;
+            scroll-behavior: smooth;
+
+}
+
+
+.dva {
+scroll-behavior: smooth;
+
+          }
+
+
+
+button {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.9em;
+    background: #000000;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+          
+
+
+          
+          section {
+              height: 100vh;
+              scroll-snap-align: start;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+
+
+
+
+
+  /* typewriter */
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+  .typewriter {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  position: inherit;
+  justify-content: left;
+  margin-top: -10%;
+  margin-left: -50px;
+  left: -500px;
+}
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 2.5s steps(24, end),
+    blink-caret .7s step-end infinite;
+    font-weight: 900;
+    font-size: 250%;
+    justify-content: left;
+    margin-left: -30px;
+    margin-top: -10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 69% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
+}
+
+      </style>
+      
+<script>
+  
+</script>
+</html>

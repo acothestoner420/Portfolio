@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<script src="portfolio.js"></script>
+<link rel="stylesheet" href="portfolio.scss">
+<link rel="stylesheet" href="portfolio.css">
+      </header>
+
+<body>
+  <section class="timeline">
+    <ul>
+      <li>
+        <div>
+          <time>2017</time>
+          <div class="discovery">
+            <h1>dom starejših občanov Logatec</h1>
+            <img src="dslogateclogo2.jpg" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>hišnik</h1>
+            <span>opravljal sprotna popravila, izdelal oz sestavil vrtno uto, vzdrževal objekt in preživljal čas s starejšimi občani.</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>2018</time>
+          <div class="discovery">
+            <h1>McDonalds</h1>
+            <img src="mcdonaldslogo.webp" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>Delavec v kuhinji</h1>
+            <span>opravljal različna dela v kuhinji, restavraciji ter mccafeju</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>2019</time>
+          <div class="discovery">
+            <h1>Picikato</h1>
+            <img src="http://vellux.si/wp-content/uploads/2014/07/picikato-logo.jpg" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>Razvijalec</h1>
+            <span>Razvijal spletno aplikacijo za naročanje hrane in pijače, integracija s sistemom za razvoz hrane oz navigacijo, vpis in izpis podatkov v podatkovni bazi</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>16.9.2019</time>
+          <div class="discovery">
+            <h1>Slo rest</h1>
+            <img src="https://s.deloglasnik.si/data/images/preview/company-logo/78/7728dd87-frame-600x315x88.png" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>delo v kuhinji</h1>
+            <span>opravljal dela v kuhinji kot je pomivanje posode, kuhanje oz priprava jedi, solate, priprava hladnih malic oz obrokov.</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>24.12.2021</time>
+          <div class="discovery">
+            <h1>Eko gurman</h1>
+            <img src="https://www.malcajt.com/upload/restaurant_gallery/restaurant_gallery1485338556206.jpg" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>delo v kuhinji in šankom</h1>
+            <span>opravljal dela v strežbi, raznos hrane in pijače</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>2022</time>
+          <div class="discovery">
+            <h1>Bisol group</h1>
+            <img src="data:image/png;base64,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" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>Sestavljalec fotonapetostnih modulov</h1>
+            <span>Sestavljal fotovoltaične module, pomagal pri vzdrževanju ter opravljal delo operaterja na stroju za fotovoltaične celice, opravljal sprotno kontrolo produktov in procesa dela, predlagal izboljšave na strojnem področju ter predlagal uporabo nove tehnologije materiala</span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>2022</time>
+          <div class="discovery">
+            <h1>Eurokovinar</h1>
+            <img src="https://s.deloglasnik.si/data/images/preview/company-logo/ef/3d25f7fe-frame-600x315x100.png" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>Pomožna kovinarska dela</h1>
+            <span>opravljal razna kovinarska dela, pomagal pri sestavi konstrukcij, prav tako sem opravljal dela kot so vrezovanje navojev, brušenje, varjenje, rezanje, rezkanje, delo s mostnim žerjavom </span>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div>
+          <time>2022</time>
+          <div class="discovery">
+            <h1>Privat storitve</h1>
+            <img src="https://icons.veryicon.com/png/o/business/wealth-man/code-7.png" width="100%" height="100%">
+          </div>
+          <div class="scientist">
+            <h1>Razvijalec</h1>
+            <span>izdelava spletnih aplikacij, strani in trgovin, integracija web3.0 (3D/VR/AR)  v starejše aplikacije, izdelava igrice za android platformo, sistemske rešitve za srednja in mala podjetja</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+</body>
+
+<script>
+  var items = document.querySelectorAll(".timeline li");
+
+function isElementInViewport(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function callbackFunc() {
+  for (var i = 0; i < items.length; i++) {
+    if (isElementInViewport(items[i])) {
+      if(!items[i].classList.contains("in-view")){
+        items[i].classList.add("in-view");
+      }
+    } else if(items[i].classList.contains("in-view")) {
+        items[i].classList.remove("in-view");
+    }
+  }
+}
+ 
+window.addEventListener("load", callbackFunc);
+window.addEventListener("scroll", callbackFunc);
+
+</script>
+</html>
